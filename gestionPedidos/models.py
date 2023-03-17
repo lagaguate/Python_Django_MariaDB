@@ -27,5 +27,5 @@ class Pedidos(models.Model):
     fecha = models.DateField()    
     entregado = models.BooleanField()
 
-    def __str__ (self):
-        result = f'{self.number}|{self.fecha}|{self.entregado}'
+    #def __str__ (self):
+    #    result = f'{self.numero}|{self.fecha}|{self.entregado}'
